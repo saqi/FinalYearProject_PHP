@@ -1,0 +1,189 @@
+html {
+background-color: white;
+overflow: hidden;
+}
+body {
+width: 100%;
+margin: 0 auto;
+padding-bottom: 2%;
+background-color: green;
+overflow: hidden;
+}
+
+/* Youtube users list including title */
+#mtitle{
+margin: 0% 0% 2% 3%;
+color: #9ACD32;
+}
+h1 {
+margin: 0% 0% 2% 3%;
+color: #9ACD32;
+}
+#ytusers {
+background-color: #FFD700;
+float: left;
+border: 3px solid blue;
+margin-left: 3%;
+}
+#ytusers ol{
+padding-left:50px;
+padding-right: 1%;
+font: bold 26px Arial, Times New Roman;
+color: red;
+}
+#ytusers ul{
+font-size: 20px;
+color: blue;
+}
+
+/* Register & login div */
+#links {
+float: right;
+position: absolute;
+top: 10px;
+right: 20%;
+border: 1px solid blue;
+background-color: #DAA520;
+}
+#links a{
+font: bold 20px Arial, Times New Roman;
+text-decoration: none;
+color: #FF6347;
+}
+
+/* add other user styles */
+#addouser {
+clear: both;
+float: left;
+margin: 1% 0% 0% 3%;
+}
+#addouserh1 {
+color: #9ACD32;
+}
+form {
+border: 2px solid blue;
+padding: 10px;
+background-color: #DAA520;
+width: 45%;
+margin-left: 2%;
+}
+#addouser form {
+border: 2px solid blue;
+padding: 10px;
+background-color: #DAA520;
+margin: 0;
+width: auto;
+}
+#addmuser {
+clear: both;
+position: relative;
+top: 30px;
+}
+
+/* Styles for messages amessage & rmessage */
+#rmessage {
+clear: both;
+border: 2px solid blue;
+padding: 1px;
+position: relative;
+top: 10px;
+left: 17px;
+background-color: gray;
+width: 30%;
+}
+#amessage {
+float: left;
+clear: left;
+border: 2px solid blue;
+padding: 1px;
+position: relative;
+top: 5px;
+margin-left: 2.5%;
+margin-bottom: 3px;
+background-color: gray;
+width: 30%;
+}
+
+/* Styles for hidden class */
+.hidden {
+visibility:hidden;
+}
+.hidden1 {
+display:none;
+}
+
+/* File Link Styles */
+#addmuser > a{
+position: absolute;
+top: 40px;
+left:53%;
+font-size: 3em;
+}
+
+/* File styles */
+#fileh1 {
+margin: 15px 0 0 15px;
+}
+#afdiv {
+padding: 5% 0 0 30%;
+}
+#apdiv {
+padding: 0.1% 0 0 30%;
+}
+#mstable {
+border: 2px solid black;
+background-color: #DAA520;
+margin: 20px;
+font-size: 3em;
+}
+#chart1 {
+background-color: #DAA520;
+width: auto;
+float: left;
+margin-bottom: 20;
+}
+
+#totals {
+float: left;
+width: 40%;
+}
+
+#afform {
+margin-top: 10%;
+}
+#afform9 {
+margin-top: -10%;
+}
+
+#products {
+float: left;
+width: 40%;
+}
+#txtHint {
+background-color: gray;
+float: left;
+}
+#anproducts {
+float: left;
+width: 60%;
+}
+#vtproducts {
+float: right;
+width: 60%;
+}
+#vcproducts {
+float: right;
+width: 60%;
+}
+#toppform{
+border: 0px solid blue;
+padding: 0px;
+background-color: #DAA520;
+width: auto%;
+margin-left: 2%;
+margin: 0 0 0 0;
+}
+
+#container {
+float: left;
+}

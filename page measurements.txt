@@ -1,0 +1,33 @@
+Width = 1024
+Height = 768
+
+Height measurements
+Top banner = 13%
+Footer banner = 8%
+Total percent = 21% deducted from 768px (height) = 606.72px of height space
+
+Width measurements
+70% of 1024 = 716.8 (webpage body)
+15% of 716.8 = 107.52  ----(half of 30% for webpage body) 
++
+15% of 1024 (153.6) =  261.12 (pixels from left side) 
+
+Banner text colour: 54cb54
+Font: Monotype corsiva italic 72px/36px
+
+
+Height measurements
+Top banner = 13%
+Footer banner = 8%
+
+Login form = 50% - 13% = 37%
+
+Width measurements
+70% (webpage body)
+
+Guides
+Vertical:
+15%, 50%, 85%
+
+Horizontal:
+7%, 13%, 25%, 50%, 75%, 92%, 96%

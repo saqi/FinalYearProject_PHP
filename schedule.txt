@@ -1,0 +1,29 @@
+Monday: Do account settings Page at least DONE!!
+
+Tuesday: Add banners Navigation & logout pages on all pages with appropriate styling DONE!!
+
+Wednesday: Style all pages with css DONE!!
+
+Thursday: About page, Add Jquery plugins such as forms DONE!! Forgot password
+
+Friday: style rmessage and amessage feedback DONE!!!
+
+Saturday Report
+
+Sunday Report
+
+
+
+Monday: Finish all categories
+
+Tuesday: Explain links for three categories
+
+Wednesday: Explain links for three categories
+
+Thursday: Change styling wih css
+
+Friday: Day off
+
+Saturday: Report
+
+Sunday: Report

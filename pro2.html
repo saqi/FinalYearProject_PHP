@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>PRODUCT SALES &amp; CHARTS</title>
+		<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="excanvas.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type='text/javascript' src='menu_jquery.js'></script>
+	</head>
+	<body>
+	
+	<div id="body">
+	<!-- top banner -->
+	<div id="banner">
+	<img id="banner1" src="Banner.png" alt="Retail Portal">
+	</div>
+	
+	<div id='cssmenu'>
+	<ul>
+	   <li class='active'><a href='products.php'><span>PRODUCT SALES <br />&amp; CHARTS</span></a></li>
+	   <li><a href='dailys.php'><span>DAILY SALES<br /> &amp; CHARTS</span></a></li>
+	   <li><a href='view.php'><span>VIEW, ADD &amp;<br /> EDIT PRODUCTS</span></a></li>
+	   <li class='last'><a href='account.php'><span>ACCOUNT <br />SETTINGS</span></a></li>
+	</ul>
+	</div><!-- end of nav div -->
+	
+	<!-- add product sales -->
+	<div id="apdiv">
+	<form id="apform" action='products.php' method='post'>
+	Product Sale<br /> ISBN:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type='text' name='isbn'><br />
+	Quantity: &nbsp;&nbsp;<input type='text' name='quantity' value="1"><br />
+	<input type='submit' name='psubmit' value='Submit' />
+	</form>
+	</div> <!-- apdiv ends here -->
+
+	
+
+	<div id="vcproducts"> <!-- view chart products -->
+	<form id="vcpform" action="filegraph2.php" method='post' >
+	View chart for Product By ISBN<br />
+	ISBN: <input type="text" name="isbn2"> <br />
+	Year:
+	<select name="years2">
+</select> <br />
+	<input type="submit" name="vcisubmit" value="View" />
+	</form>
+	<br />
+	</div> <!-- view chart products div -->
+
+	<!-- view chart for product by code -->
+	<form id="vcpform2" method='post' action="filegraph2.php">
+	View chart for Product By Code<br />
+	Code: <input type="text" name="code2"> <br />
+	Year:
+	<select name="years3">
+	
+	</select> <br />
+	<input type="submit" name="vccsubmit" value="View" />
+	</form>
+	
+	<div id="footer">
+	<img id="footer1" src="footer11.png" alt="Retail Portal">
+	</div>
+	</div> <!-- body container div -->
+
+	</body>
+	</html>
